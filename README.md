@@ -12,20 +12,20 @@ Unleashing the Potential of Lightweight Detectors via Negative-core sample Orien
 ## Train
 ```
 #single GPU
-python tools/train.py configs/od/rotated_retinanet/rotated_retinanet_obb_r18_r101_fpn_1x_dota_le90.py --gpus 1
+python tools/train.py configs/nsd/rotated_retinanet/rotated_retinanet_obb_r18_r101_fpn_1x_dota_le90.py --gpus 1
 
 #multi GPU
-bash tools/dist_train.sh configs/od/rotated_retinanet/rotated_retinanet_obb_r18_r101_fpn_1x_dota_le90.py 8
+bash tools/dist_train.sh configs/nsd/rotated_retinanet/rotated_retinanet_obb_r18_r101_fpn_1x_dota_le90.py 8
 ```
 
 ## Test
 
 ```
 #single GPU
-python tools/test.py configs/od/rotated_retinanet/rotated_retinanet_obb_r18_r101_fpn_1x_dota_le90.py $new_mmdet_pth --eval bbox
+python tools/test.py configs/nsd/rotated_retinanet/rotated_retinanet_obb_r18_r101_fpn_1x_dota_le90.py $new_mmdet_pth --eval bbox
 
 #multi GPU
-bash tools/dist_test.sh configs/od/rotated_retinanet/rotated_retinanet_obb_r18_r101_fpn_1x_dota_le90.py $new_mmdet_pth 8 --eval bbox
+bash tools/dist_test.sh configs/nsd/rotated_retinanet/rotated_retinanet_obb_r18_r101_fpn_1x_dota_le90.py $new_mmdet_pth 8 --eval bbox
 ```
 Subsequently, we submitted the results of the trained model to the official website for testing.
 
