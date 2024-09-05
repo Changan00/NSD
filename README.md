@@ -32,11 +32,3 @@ Subsequently, we submitted the results of the trained model to the official webs
 ## Trained model and log file
   - Trained model can be finded in [GoogleDrive](https://pan.baidu.com/s/1CBz0O1tBANeOdSzzTbmWMQ?pwd=qu16).
   - Log file can be finded in workdirs/.
-| Teacher     | Student    | Schedule | mAP   | download                                                                                                                                                                                    |
-|-------------|------------|----------|-------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|             | GFocal-R50 | 1x       | 40.1  |                                                                                                                                                                                              |
-| GFocal-R101 | GFocal-R50 | 1x       | 43.2  | [log](https://drive.google.com/file/d/1bl7qbEYsrdXvzm0Ya8wMl7INBJXzaA9L/view?usp=drive_link) \| [ckpt](https://drive.google.com/file/d/1AeGpY4QbQ_PlanuauEogZWAbMRH59t-k/view?usp=drive_link)                                                                                      |
-|             | GFocal-R34 | 1x       | 38.9  |                                                                                                                                                                                              |
-| GFocal-R101 | GFocal-R34 | 1x       | 42.0  | [log](https://drive.google.com/file/d/1paU3nDKFNbZcBWXS1ralrDf8dWIIh2vF/view?usp=drive_link) \| [ckpt](https://drive.google.com/file/d/1hJo15YP71xgZdw262Urum89R6324u3dG/view?usp=drive_link) |
-|             | GFocal-R18 | 1x       | 35.8  |                                                                                                                                                                                              |
-| GFocal-R101 | GFocal-R18 | 1x       | 38.6  | [log](https://drive.google.com/file/d/1ijTPJX3hkjddl_GMLBWGnTe272NOTSrz/view?usp=drive_link) \| [ckpt](https://drive.google.com/file/d/1Oy6cSBeFKJx5tooHGRRFOv7QwPdScO6S/view?usp=drive_link) |
